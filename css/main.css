@@ -112,9 +112,9 @@
 }
 
 .header__logo {
-  width: 70px;
-  height: 70px;
-  border: 1px solid red;
+  vertical-align: middle;
+  font: bold 30px "Lobster", sans-serif;
+  color: #071739;
 }
 
 .header__nav {
