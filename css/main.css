@@ -188,8 +188,8 @@
   background-color: #fdae55;
   border-bottom: 2px solid #071739;
   position: relative;
-  -webkit-box-shadow: 4px 3px 10px #000;
-  box-shadow: 4px 3px 10px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  box-shadow: 2px 2px 5px #000;
 }
 
 .advantages__active::after {
@@ -473,6 +473,16 @@
   box-shadow: -3px -2px 5px #f1f1f1;
 }
 
+.call {
+  width: 85px;
+  height: 85px;
+  background: url("../img/icons/speech-bubble-85.png") no-repeat center center;
+  position: fixed;
+  left: 93%;
+  top: 80%;
+  cursor: pointer;
+}
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -526,6 +536,13 @@ ul {
 
 a {
   text-decoration: none;
+  text-align: center;
+  color: #071739;
+}
+
+a font {
+  size: 16px;
+  family: "Roboto Slab", sans-serif;
 }
 
 .container {
