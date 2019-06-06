@@ -281,6 +281,7 @@
   border: 1px solid #ccc;
   background-color: #fff;
   border-radius: 5px;
+  width: 300px;
   float: right;
   clear: both;
 }
@@ -535,6 +536,13 @@
   width: 90%;
   padding: 10px 10px;
   margin-bottom: 25px;
+}
+
+.popUpCall__inner__form__item:focus {
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 3px 4px 10px #000;
+  box-shadow: 3px 4px 10px #000;
+  outline: none;
 }
 
 * {
