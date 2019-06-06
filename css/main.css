@@ -483,6 +483,60 @@
   cursor: pointer;
 }
 
+.btn-popUp {
+  display: block;
+}
+
+.popUpCall {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10001;
+  display: none;
+}
+
+.popUpCall__inner {
+  height: 300px;
+  width: 550px;
+  background-color: #f1f1f1;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 15px 15px;
+  margin: 15% auto;
+  position: relative;
+}
+
+.popUpCall__inner__close {
+  position: absolute;
+  left: 91%;
+  top: 4%;
+  background: url("../img/icons/cancel-32.png") no-repeat center center;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  border: none;
+}
+
+.popUpCall__inner__title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 27px;
+}
+
+.popUpCall__inner__form {
+  margin-top: 20px;
+}
+
+.popUpCall__inner__form__item {
+  display: block;
+  width: 90%;
+  padding: 10px 10px;
+  margin-bottom: 25px;
+}
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;

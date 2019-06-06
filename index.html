@@ -311,12 +311,26 @@
 	</section>
 	<!--/contacts-->
 
+	<!--btn call-->
 	<div class="call"></div>
-	
+	<!--popUp call now-->
+	<div class="popUpCall">
+		<div class="popUpCall__inner">
+			<button type="close" class="popUpCall__inner__close"></button>
+			<h5 class="popUpCall__inner__title">Отримайте консультацію прямо зараз</h5>
+			<form action="#" method="GET" class="popUpCall__inner__form">
+				<input type="text" name="person-name" placeholder="Ваше імя*" class="popUpCall__inner__form__item">
+				<input type="tel" name="person-phone" placeholder="Номер телефону*" class="popUpCall__inner__form__item" >
+				<input type="submit" value="Відправити" class="btn btn-popUp">
+			</form>
+		</div>
+	</div>
+
 	<script src="js/jquery.min.js"></script>
 	<script src="js/accordion.js"></script>
 	<script src="js/anchourMenu.js"></script>
 	<script src="js/tabs.js"></script>
+	<script src="js/popUpCall.js"></script>
 </body>
 </html>
 
